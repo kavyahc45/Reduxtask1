@@ -1,12 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Age from './Component/Age';
+import Task3 from './Component/Task3';
+//import Task2 from './Component/Task2';
+
+
+// import Age from './Component/Age';
 
 function App() {
   return (
     <div className="App">
-     <Age/>
+     {/* <Age/> */}
+     {/* <Task2/> */}
+     <Task3/>
     </div>
   );
 }
