@@ -8,7 +8,7 @@ export default (state = initialState, action) => {
     case ActionTypes.A_UP: {
       return { ...state, A: state.A + action.value }
     }
-    
+    break;
     
     default:
       return state;
