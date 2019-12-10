@@ -12,3 +12,7 @@ export const D_UP = 'D_UP';
 export const  Add = 'Add';
 export const Sub = 'Sub';
 export const  Even = 'Even';
+
+
+export const SAVE='handleChange';
+export const CHECK='CHECK';

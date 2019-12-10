@@ -5,7 +5,8 @@ import {BrowserRouter as Router,Route} from 'react-router-dom';
 
 // import Task3 from './Component/Task3';
 // import Task2 from './Component/Task2';
-import Task4 from './Component/Task4';
+// import Task4 from './Component/Task4';
+import Task5 from './Component/Task5';
 
 
 
@@ -20,7 +21,8 @@ function App() {
       {/* <Task4/>    */}
         <Router>
        <switch>
-<Route exact path ='/' component={Task4}></Route>
+{/* <Route exact path ='/' component={Task4}></Route> */}
+<Route exact path ='/' component={Task5}></Route>
        </switch>
      </Router>
     </div>
